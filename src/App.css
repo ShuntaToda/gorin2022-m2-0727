@@ -1,0 +1,29 @@
+.c-board__body {
+  height: calc(100vh - 144px);
+}
+
+.c-task__btn {
+  min-width: 60px;
+}
+
+.c-category {
+  min-width: 450px;
+  background-color: lightyellow;
+} /*# sourceMappingURL=App.css.map */
+/* 
+.c-task {
+  background-color: rgb(173, 230, 173);
+} */
+
+/* .c-task__input {
+  color: rgb(255, 4, 0);
+  font-size: 3rem;
+} */
+
+/* .c-board__header {
+  background-color: lightblue;
+} */
+
+/* .c-board__header {
+  background-color: red;
+} */
