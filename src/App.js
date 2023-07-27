@@ -38,11 +38,19 @@ function App() {
   return (
     <div className="App">
       <Board></Board>
-      <div>
-        <button onClick={headerRed}>header-red</button>
-        <button onClick={headerLightBlue}>header-lightBlue</button>
-        <button onClick={taskBackgroundGreen}>task-background-green</button>
-        <button onClick={taskOrange}>task-orange</button>
+      <div className="mt-4 text-center">
+        <button className="btn btn-outline-primary mx-2" onClick={headerRed}>
+          header-red
+        </button>
+        <button className="btn btn-outline-primary mx-2" onClick={headerLightBlue}>
+          header-lightBlue
+        </button>
+        <button className="btn btn-outline-primary mx-2" onClick={taskBackgroundGreen}>
+          task-background-green
+        </button>
+        <button className="btn btn-outline-primary mx-2" onClick={taskOrange}>
+          task-orange
+        </button>
       </div>
     </div>
   );
